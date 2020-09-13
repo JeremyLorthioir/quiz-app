@@ -9,39 +9,39 @@ export default function App() {
 	// Data
 	const questions = [
 		{
-			questionText: 'What is the capital of France?',
+			questionText: 'Qui engager pour votre entreprise ?',
 			answerOptions: [
-				{ answerText: 'New York', isCorrect: false },
-				{ answerText: 'London', isCorrect: false },
-				{ answerText: 'Paris', isCorrect: true },
-				{ answerText: 'Dublin', isCorrect: false },
+				{ answerText: 'Jérémy Lorthioir', isCorrect: true },
+				{ answerText: 'Lorthioir Jérémy', isCorrect: true },
+				{ answerText: 'Moi', isCorrect: true },
+				{ answerText: 'Le créateur de cette application (moi)', isCorrect: true },
 			],
 		},
 		{
-			questionText: 'Who is CEO of Tesla?',
+			questionText: 'Ou m\'engager ?',
 			answerOptions: [
-				{ answerText: 'Jeff Bezos', isCorrect: false },
-				{ answerText: 'Elon Musk', isCorrect: true },
-				{ answerText: 'Bill Gates', isCorrect: false },
-				{ answerText: 'Tony Stark', isCorrect: false },
+				{ answerText: 'Lyon', isCorrect: true },
+				{ answerText: 'Grenoble', isCorrect: true },
+				{ answerText: 'Paris', isCorrect: false },
+				{ answerText: 'Singapour', isCorrect: true },
 			],
 		},
 		{
-			questionText: 'The iPhone was created by which company?',
+			questionText: 'Quelle technologie je n\'utilises pas ? ',
 			answerOptions: [
-				{ answerText: 'Apple', isCorrect: true },
-				{ answerText: 'Intel', isCorrect: false },
-				{ answerText: 'Amazon', isCorrect: false },
-				{ answerText: 'Microsoft', isCorrect: false },
+				{ answerText: 'React', isCorrect: false },
+				{ answerText: 'Javascript', isCorrect: false },
+				{ answerText: 'Java', isCorrect: true },
+				{ answerText: 'Python', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'How many Harry Potter books are there?',
+			questionText: 'Combien me payer ? ',
 			answerOptions: [
-				{ answerText: '1', isCorrect: false },
-				{ answerText: '4', isCorrect: false },
-				{ answerText: '6', isCorrect: false },
-				{ answerText: '7', isCorrect: true },
+				{ answerText: 'Un ticket restaurant', isCorrect: false },
+				{ answerText: '28 - 30K', isCorrect: true },
+				{ answerText: '3 peanuts et une barre chocolatée', isCorrect: false },
+				{ answerText: '3 chèques emplois service', isCorrect: false },
 			],
 		},
 	];
